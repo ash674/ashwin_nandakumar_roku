@@ -50,6 +50,12 @@ Contact.php
 1. Contact form to fill up
 2. Contact form with name, email, phone and question fields and with a text content parallelly
 
+
+JS:
+
+Main.js - should use Vue instance and components to display the content from movie database
+
+
 Functionalities:
  login.php:
  1. Must let users to login into their account
