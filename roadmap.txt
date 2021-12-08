@@ -1,0 +1,75 @@
+Files to be created:
+ 1. index.php
+ 2. login.php -
+        ·create.php
+        .password.php
+
+ 3. profile.php
+ 4. about.php
+ 5. contact.php
+ 6. main.js and components
+ 7. sass directory with -
+        main.scss file with all the necessary modules imported in it 
+ 8. css folder
+
+login.php 
+1. Username and password fields to login
+2. Forgot password option under login button
+3. Create account option to create an account in case the user doesn't have one
+    
+     create.php - form with 3 fields, email address, password and another field to confirm the password
+    
+profile.php
+1. Displays 3 profiles -
+            · Kids
+            · Adults
+            · Custom
+2. Redirects to index.php when one of the option is clicked
+
+    
+
+ index.php 
+ 1. Header with links to all the about and contact pages
+ 2. Movies section with movie thumnails
+ 3. content section with -
+            · Movie name with movie year
+            · Movie trailer
+            · Movie Cast
+            · Movie Crew
+            · Movie Plot synopsis
+ 4. Filters adjacent to movie section that allows user to filter by given parameters          
+
+
+
+ About.php 
+ 1. Main wide image on top of the body content
+ 2. About section with text content
+
+
+Contact.php
+1. Contact form to fill up
+2. Contact form with name, email, phone and question fields and with a text content parallelly
+
+Functionalities:
+ login.php:
+ 1. Must let users to login into their account
+ 2. If the username or password is wrong, it should display an error message in UI
+ 3. If user clicks create an account, it should redirect to create.php
+ 4. If the user clicks Forgot password, it should redirect to password.php
+
+ profile.php:
+ 1. Contains 3 profiles that alters the movie thumnail display results in index.php as per choice
+ 2. Custom profile should let users create their own profile to their liking
+
+ index.php:
+ 1. Movie thumnails should be moving across in a slow way 
+ 2. When one of the movie thumbanil is clicked, the content part should be populated with the name, year, trailer,
+    cast, crew and plot synopsis
+ 3. Filter button should change the results of movie thumbnails and display the new result after the filter is applied
+ 4. Movie trailer should have option to control volume, play, pause and to make it fullscreen    
+
+
+Animations:
+ simple animations
+1. Hover - zoom
+2. Hover - drop shadow
